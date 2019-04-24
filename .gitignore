@@ -1,0 +1,10 @@
+# CLion files
+.idea
+cmake-build-*
+
+# Eclipse files
+.cproject
+.project
+
+# KDevelop files
+*.kdev4
