@@ -1,4 +1,11 @@
+# tmux-2.9
+# tmux loads the system configuration file from /etc/tmux.conf, if present, 
+# then looks for a user configuration file at ~/.tmux.conf.
+
 setw -g mouse on
+
+# https://superuser.com/questions/1165287/ctrl-arrow-keys-for-tmux-not-working-in-putty
+set -g terminal-overrides "xterm*:kLFT5=\eOD:kRIT5=\eOC:kUP5=\eOA:kDN5=\eOB:smkx@:rmkx@"
 
 bind -n C-Left select-pane -L
 bind -n C-Right select-pane -R
