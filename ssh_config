@@ -1,0 +1,12 @@
+# This file contains config for ssh 
+# File path: ~/.ssh/config
+
+# Use following template to add use seperate private keys for different github repositories
+# Don't forget to change git clone URL
+# git@github.com:sameermahant/Settings.git => <custom_name>@github.com:sameermahant/Settings.git
+
+Host <custom_name>
+    HostName github.com
+    User git
+    IdentityFile <custom_private_key_file_path>
+    IdentitiesOnly yes
