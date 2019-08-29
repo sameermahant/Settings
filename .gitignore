@@ -33,6 +33,7 @@
 
 # CMake
 cmake-build-*/
+build
 
 # CLion
 .idea/*
@@ -43,3 +44,6 @@ cmake-build-*/
 
 # KDevelop files
 *.kdev4
+
+# Visual Studio Code files
+.vscode
