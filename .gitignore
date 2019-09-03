@@ -36,7 +36,7 @@ cmake-build-*/
 build
 
 # CLion
-.idea/*
+.idea
 
 # Eclipse files
 .cproject
