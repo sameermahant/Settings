@@ -13,6 +13,7 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "python.venvPath": "<path_to_folder_containing_virtual_environments>",
+    "terminal.integrated.shellArgs.windows": [ "-ExecutionPolicy", "AllSigned" ],
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "update.enableWindowsBackgroundUpdates": false,
