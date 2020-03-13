@@ -1,3 +1,4 @@
+# VSCode 1.43 General Setting
 {
     "breadcrumbs.enabled": false,
     "editor.fontSize": 14,
@@ -12,8 +13,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "python.venvPath": "<path_to_folder_containing_virtual_environments>",
-    "terminal.integrated.shellArgs.windows": [ "-ExecutionPolicy", "AllSigned" ],
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "update.enableWindowsBackgroundUpdates": false,
@@ -25,4 +24,15 @@
     "zenMode.centerLayout": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
+}
+
+
+# VSCode 1.43 Workspace Specific Setting
+{
+    "python.pythonPath": "D:\\PythonVirtualEnvironments\\py382env\\Scripts\\python.exe",
+    "python.venvPath": "D:\\PythonVirtualEnvironments",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "AllSigned"
+    ],
 }
