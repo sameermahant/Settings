@@ -1,6 +1,8 @@
-# VSCode 1.43 General Setting
+# VSCode 1.45 General Setting
 {
     "breadcrumbs.enabled": false,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
@@ -15,7 +17,6 @@
     "files.trimTrailingWhitespace": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "update.enableWindowsBackgroundUpdates": false,
     "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "Monokai",
     "workbench.editor.centeredLayoutAutoResize": false,
@@ -23,12 +24,13 @@
     "workbench.settings.useSplitJSON": true,
     "zenMode.centerLayout": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "zenMode.hideStatusBar": false,
+    "zenMode.hideTabs": false,
+    // "update.enableWindowsBackgroundUpdates": false,
 }
 
 
-# VSCode 1.43 Workspace Specific Setting
+# VSCode 1.45 Workspace Specific Setting for Python Project
 {
     "python.pythonPath": "D:\\PythonVirtualEnvironments\\py382env\\Scripts\\python.exe",
     "python.venvPath": "D:\\PythonVirtualEnvironments",
@@ -36,4 +38,10 @@
         "-ExecutionPolicy",
         "AllSigned"
     ],
+}
+
+# VSCode 1.45 Workspace Specific Setting for C++ Project
+{
+    "cmake.configureOnOpen": true,
+    "cmake.cmakePath": "/opt/toolchain/cmake-3.17.2/bin/cmake",
 }
