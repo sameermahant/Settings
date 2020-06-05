@@ -45,3 +45,27 @@
     "cmake.configureOnOpen": true,
     "cmake.cmakePath": "/opt/toolchain/cmake-3.17.2/bin/cmake",
 }
+
+# VSCode 1.45 CMake Extention Settings (cmake-tools-kits.json)
+[
+  {
+    "name": "GCC 10.1.0",
+    "compilers": {
+      "C": "/opt/toolchain/gcc-10.1.0/bin/gcc",
+      "CXX": "/opt/toolchain/gcc-10.1.0/bin/g++"
+    }
+  },
+  {
+    "name": "GCC 8.3.1",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++"
+    }
+  },
+  {
+    "name": "GCC for x86_64-redhat-linux 8.3.1",
+    "compilers": {
+      "C": "/usr/bin/x86_64-redhat-linux-gcc-8"
+    }
+  }
+]
