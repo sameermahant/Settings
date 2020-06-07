@@ -1,16 +1,16 @@
 {
     "bold_folder_labels": true,
     "default_line_ending": "unix",
+    "ensure_newline_at_eof_on_save": true,
     "font_face": "Fira Code",
-    "font_size": 10,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
+    "font_size": 12,
+    "ignored_packages": [ "Vintage" ],
+    "indent_to_bracket": true,
+    "mini_diff": "auto",
     "show_encoding": true,
     "show_line_endings": true,
     "spell_check": true,
     "theme": "SoDaReloaded Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
+    "trim_trailing_white_space_on_save": true,
 }
