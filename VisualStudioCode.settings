@@ -36,7 +36,7 @@
     "python.venvPath": "D:\\PythonVirtualEnvironments",
     "terminal.integrated.shellArgs.windows": [
         "-ExecutionPolicy",
-        "AllSigned"
+        "Bypass"
     ],
 }
 
