@@ -46,7 +46,9 @@ build
 *.kdev4
 
 # Visual Studio Code files
-.vscode
+# .vscode
+# VSCode started support for workspace/project specific settings.
+# These settings are present in '.vscode' folder. So commenting this entry
 
 # Python cache folder
 __pycache__
