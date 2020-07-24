@@ -3,7 +3,7 @@
 syn enable
 set autoindent
 set smartindent
-set filetype indent on
+" set filetype indent on
 set expandtab " convert tabs to spaces
 set smarttab
 set tabstop=4
