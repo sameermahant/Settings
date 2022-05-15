@@ -11,11 +11,27 @@
     "markdown.preview.doubleClickToSwitchToEditor": false,
     "markdown.preview.lineHeight": 1.5,
     "telemetry.telemetryLevel": "off",
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "none",
     "zenMode.hideStatusBar": false,
     "zenMode.hideTabs": false,
+}
+
+# VSCode 1.67 Workspace Customization Settings
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2F5233",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.background": "#2F5233",
+        "statusBar.foreground": "#ffffff",
+        "titleBar.activeBackground": "#2F5233",
+        "titleBar.activeForeground": "#ffffff",
+        "debugToolBar.background": "#B1D8B7",
+        "terminal.background": "#040042",
+        "tab.border": "#94C973",
+    }
 }
 
 ------------------------------------------------------------
